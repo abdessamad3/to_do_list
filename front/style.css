@@ -77,7 +77,7 @@ body{
 }
 
 .row2 .btn-v{
-    background-color: red;
+    background-color: rgb(221, 103, 103);
     color: white;
 }
 .row2 .btn-v:hover{
