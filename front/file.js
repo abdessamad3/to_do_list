@@ -45,6 +45,7 @@ function createtasks(){
     const date = create_obj().date
     const done = create_obj().done
     xhr.open('POST', 'http://localhost/back/index.php?action=create', true)
+    
     xhr.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
     xhr.onload = function() {
         if (xhr.status >= 200 && xhr.status < 400) {
